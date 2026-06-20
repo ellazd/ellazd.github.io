@@ -15,16 +15,38 @@ body {
     padding-bottom: 1rem;
 }
 
+h1, h2, h3, p {
+    margin-bottom: 1rem;
+}
+
 header {
     padding-top: 5rem;
     padding-bottom: 3rem;
     text-align: center;
     margin: auto;
     width: 80vw;
+    margin-bottom: 2em;
 }
 
-h1, h2, h3, p {
-    margin-bottom: 1rem;
+#header-img {
+    vertical-align: top;
+    display: inline-block;
+    width: 35%;
+    border-radius: 28px;
+}
+
+#header-text {
+    vertical-align: top;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    height: auto;
+    width: 30vw;
+    text-align: left;
+    display: inline-block;
+}
+
+#header-text h2 {
+    margin-top: 2rem;
 }
 
 .section {
@@ -75,7 +97,7 @@ h1, h2, h3, p {
 
 .theme-text {
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     width: 50%;
 }
 
@@ -85,27 +107,6 @@ h1, h2, h3, p {
 
 .publication {
     margin-bottom: 1.5rem;
-}
-
-#header-img {
-    vertical-align: top;
-    display: inline-block;
-    height: 40vh;
-    border-radius: 28px;
-}
-
-#header-text {
-    vertical-align: top;
-    margin-left: 3rem;
-    margin-top: 2rem;
-    height: 40vh;
-    width: 30vw;
-    text-align: left;
-    display: inline-block;
-}
-
-#header-text h2 {
-    margin-top: 2rem;
 }
 
 /* Mobile phones and smaller tablets: */
